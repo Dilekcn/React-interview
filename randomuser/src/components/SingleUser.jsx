@@ -3,7 +3,7 @@ import React from 'react'
 function SingleUser({user}) {
     console.log(user)
   return (
-    <div>
+    <div className='single_user'>
    <img src={user.picture.medium} alt='img'/>
    <div className="user_info">
        <h4>{user.name.first} {user.name.last}</h4>
